@@ -1,7 +1,12 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, type ReactNode } from 'react';
 
-const Reveal = ({ children, delay = 0 }) => {
-  const ref = useRef(null);
+interface RevealProps {
+  children: ReactNode;
+  delay?: number;
+}
+
+const Reveal = ({ children, delay = 0 }: RevealProps) => {
+  const ref = useRef<HTMLDivElement>(null);
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
