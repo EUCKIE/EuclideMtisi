@@ -16,7 +16,7 @@ const Hero = () => {
         </Reveal>
         <Reveal delay={400}>
           <p style={{ maxWidth: '600px', margin: '0 auto 2.5rem', fontSize: '1.2rem' }}>
-            Scaling intelligent systems from local prototypes to automated, production-grade MLOps pipelines.Specialist in Agentic architectures and the MLOps automation required to keep intelligent systems reliable at scale.
+            Scaling intelligent systems from local prototypes to automated, production-grade MLOps pipelines. Specialist in Agentic architectures and the MLOps automation required to keep intelligent systems reliable at scale.
           </p>
         </Reveal>
         <Reveal delay={600}>
