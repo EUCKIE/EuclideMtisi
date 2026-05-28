@@ -1,3 +1,6 @@
+Here is the updated `Projects.tsx` file including just the first three original projects along with the two new ones you are currently developing.
+
+```tsx
 import Reveal from '../components/Reveal';
 
 const Projects = () => {
@@ -18,6 +21,18 @@ const Projects = () => {
       title: 'Computer Vision Defect Detector',
       description: 'Implemented a deep learning vision system for real-time quality control, leveraging object detection algorithms on factory floor feeds.',
       tags: ['OpenCV', 'TensorFlow', 'YOLO'],
+      link: '#'
+    },
+    {
+      title: 'Customer Churn Predictor',
+      description: 'Building an end-to-end classification model to predict customer churn using telecom user metrics, enabling proactive customer retention strategies.',
+      tags: ['Python', 'Scikit-Learn', 'Pandas'],
+      link: '#'
+    },
+    {
+      title: 'Reddit Sentiment Analyzer',
+      description: 'Developing a script that scrapes real-time data from specific subreddits and analyzes public sentiment toward custom tech trends using NLP.',
+      tags: ['Python', 'NLTK', 'PRAW'],
       link: '#'
     }
   ];
@@ -60,3 +75,5 @@ const Projects = () => {
 };
 
 export default Projects;
+
+```
