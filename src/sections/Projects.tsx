@@ -2,36 +2,14 @@ import Reveal from '../components/Reveal';
 
 const Projects = () => {
   const projects = [
-    {
-      title: 'Predictive Analytics Engine',
-      description: 'Developed an end-to-end machine learning pipeline that forecasts user behavior using historical data, significantly improving retention strategies.',
-      tags: ['Python', 'Scikit-Learn', 'FastAPI'],
-      link: '#'
-    },
-    {
-      title: 'NLP Document Classifier',
-      description: 'Built a custom transformer-based model to automatically categorize and extract key entities from thousands of unstructured documents.',
-      tags: ['PyTorch', 'HuggingFace', 'NLP'],
-      link: '#'
-    },
-    {
-      title: 'Computer Vision Defect Detector',
-      description: 'Implemented a deep learning vision system for real-time quality control, leveraging object detection algorithms on factory floor feeds.',
-      tags: ['OpenCV', 'TensorFlow', 'YOLO'],
-      link: '#'
-    },
+   
     {
       title: 'Customer Churn Predictor',
       description: 'Building an end-to-end classification model to predict customer churn using telecom user metrics, enabling proactive customer retention strategies.',
       tags: ['Python', 'Scikit-Learn', 'Pandas'],
       link: '#'
     },
-    {
-      title: 'Reddit Sentiment Analyzer',
-      description: 'Developing a script that scrapes real-time data from specific subreddits and analyzes public sentiment toward custom tech trends using NLP.',
-      tags: ['Python', 'NLTK', 'PRAW'],
-      link: '#'
-    }
+   
   ];
 
   return (
