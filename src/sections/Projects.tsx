@@ -1,6 +1,3 @@
-Here is the updated `Projects.tsx` file including just the first three original projects along with the two new ones you are currently developing.
-
-```tsx
 import Reveal from '../components/Reveal';
 
 const Projects = () => {
@@ -75,5 +72,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
-```
