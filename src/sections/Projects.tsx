@@ -7,7 +7,7 @@ const Projects = () => {
       title: 'Customer Churn Predictor',
       description: 'Building an end-to-end classification model to predict customer churn using telecom user metrics, enabling proactive customer retention strategies.',
       tags: ['Python', 'Scikit-Learn', 'Pandas'],
-      link: '#'
+      link: 'https://github.com/EUCKIE/TELCO-CUSTOMER-CHURN'
     },
    
   ];
